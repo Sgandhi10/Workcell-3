@@ -1,0 +1,9 @@
+<table border = 1>
+    {% for user in userDetails %}
+    <tr>
+        {% for data in user %}
+            <td> {{data}} </td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
